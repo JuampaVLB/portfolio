@@ -1,10 +1,9 @@
 import React from 'react'
+import styles from '../styles/Projects.module.css'
 
 function Projects() {
-  console.log("recargue 1");
   return (
-    
-    <div>
+    <div className={styles.container} id='projects'>
       <h1>Projects</h1>
     </div>
   )

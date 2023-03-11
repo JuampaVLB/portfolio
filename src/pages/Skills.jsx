@@ -1,8 +1,9 @@
 import React from 'react'
+import styles from '../styles/Skills.module.css'
 
 function skills() {
   return (
-    <div>
+    <div className={styles.container} id='skills'>
       <h1>Skills</h1>
     </div>
   )

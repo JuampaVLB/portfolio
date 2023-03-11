@@ -26,23 +26,23 @@ function Navbar() {
                 <ul>
                     <div className={`links ${clicked ? styles.active : styles.links}`}>
                     <a href="#home">
-                        <button>Inicio</button>
+                        <button onClick={handleClick}>Inicio</button>
                     </a>
 
                     <a href="#about">
-                        <button>Sobre Mi</button>
+                        <button onClick={handleClick}>Sobre Mi</button>
                     </a>
 
                     <a href="#projects">
-                        <button>Proyectos</button>
+                        <button onClick={handleClick}>Proyectos</button>
                     </a>
 
                     <a href="#skills">
-                        <button>Habilidades</button>
+                        <button onClick={handleClick}>Habilidades</button>
                     </a>
 
                     <a href="#contact">
-                        <button>Contacto</button>
+                        <button onClick={handleClick}>Contacto</button>
                     </a>
                     </div>
                     <div className={styles.burguer}>
