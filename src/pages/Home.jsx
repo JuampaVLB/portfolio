@@ -8,10 +8,10 @@ function Home() {
         <p>Hola, mi nombre es</p>
         <h1>Juan Pablo Villalba</h1>
         <h2>Full Stack Developer</h2>
-        <a href='../../public/docs/Juan Pablo Villalba.pdf' target="_BLANK">Descargar CV</a>
+        <a href='/docs/Juan Pablo Villalba.pdf' target="_BLANK">Descargar CV</a>
       </div>
       <div className={styles.image}>
-      <img src="../../public/img/profile.png" alt="Juan Pablo Villalba" />
+      <img src="/img/profile.png" alt="Juan Pablo Villalba" />
       </div>
       
     </div>
