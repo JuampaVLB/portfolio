@@ -1,5 +1,5 @@
 .container {
-    width: 100%; 
+    width: 100%;
     padding-top: 4.063rem;
     min-height: 100vh;
     display: flex;
@@ -41,12 +41,12 @@
     color: var(--primary);
 }
 
-.container .image img {
-    width: 100%;
- }
+.container .image {
+    transition: .5s ease;
+}
 
- @media (max-width: 768px) {
-    
+@media (max-width: 768px) {
+
     .container {
         display: flex;
         justify-content: flex-end;
@@ -54,8 +54,8 @@
     }
 
     .container .presentation {
-       width: 90%;
-       text-align: left;
+        width: 90%;
+        text-align: left;
     }
 
     .container .presentation p {
@@ -65,13 +65,15 @@
     .container .presentation h1 {
         font-size: 2.2rem;
     }
-    
+
     .container .presentation h2 {
         font-size: 1.5rem;
     }
 
-    .container .image img {
-     }
+    .container .image:hover {
+        transition: .5s ease;
+        transform: scale(1.2);
+    }
 
 
 }
