@@ -8,3 +8,41 @@
     font-size: 4rem;
     border-bottom: 2px solid gray;
 }
+
+.container .presentation p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.container .presentation h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.container .presentation h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.container .presentation a {
+    font-size: 1.1rem;
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    transition: .3s ease;
+}
+
+.container .presentation a:hover {
+    transition: .3s ease;
+    border-color: var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.container .image img {
+    width: 100%;
+    z-index: 2;
+ }

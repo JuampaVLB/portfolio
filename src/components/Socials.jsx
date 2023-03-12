@@ -9,15 +9,15 @@ import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 function Socials() {
   return (
     <div className={styles.box}>
-      <a href="/">
+      <a href="https://github.com/JuampaVLB" target="_BLANK">
         <GitHubIcon />
       </a>
 
-      <a href="/">
+      <a href="https://www.linkedin.com/in/juanpablovillalba/" target="_BLANK">
         <LinkedInIcon />
       </a>
 
-      <a href="/">
+      <a href="mailto:contacto.juanpablovillalba@gmail.com" target="_BLANK">
         <EmailIcon />
       </a>
 
