@@ -31,7 +31,6 @@ function About() {
           >
             Premios
           </Tab>
-          
         </TabList>
         <TabPanels>
           <TabPanel className={styles.TabPanel}>
@@ -76,22 +75,19 @@ function About() {
               <ul>
                 <li>
                   <span>Diploma de HTML5 y CSS3</span>
-                  <p>
-                  Diploma expedido por OpenBootCamp en diciembre 2022.
-                  </p>
+                  <p>Diploma expedido por OpenBootCamp en diciembre 2022.</p>
                   <a href="/">Ver Mas</a>
                 </li>
                 <li>
                   <span>Diploma de conceptos de la programacion</span>
-                  <p>
-                  Diploma expedido por OpenBootCamp en diciembre 2022.
-                  </p>
+                  <p>Diploma expedido por OpenBootCamp en diciembre 2022.</p>
                   <a href="/">Ver Mas</a>
                 </li>
                 <li>
                   <span>Certificate EF SET ENGLISH</span>
                   <p>
-                  Diploma expedido por EF International Language Centers en enero 2023.
+                    Diploma expedido por EF International Language Centers en
+                    enero 2023.
                   </p>
                   <a href="/">Ver Mas</a>
                 </li>
@@ -99,24 +95,28 @@ function About() {
             </div>
           </TabPanel>
           <TabPanel>
-          <div className={styles.about}>
-              <img
-                src="/img/premios.png"
-                alt=""
-                className={styles.imgLeft}
-              />
+            <div className={styles.about}>
+              <img src="/img/premios.png" alt="" className={styles.imgLeft} />
               <ul>
                 <li>
-                  <span>Diploma 1° puesto Certamen Desafios TECIP de Programacion Categoria 2</span>
+                  <span>
+                    Diploma 1° puesto Certamen Desafios TECIP de Programacion
+                    Categoria 2
+                  </span>
                   <p>
-                  Diploma Expedido por Departamento de Informatica de la Institucion diciembre 2022
+                    Diploma Expedido por Departamento de Informatica de la
+                    Institucion diciembre 2022
                   </p>
                   <a href="/">Ver Mas</a>
                 </li>
                 <li>
-                  <span>Diploma 2° puesto Certamen Desafios TECIP de Programacion Categoria 2</span>
+                  <span>
+                    Diploma 2° puesto Certamen Desafios TECIP de Programacion
+                    Categoria 2
+                  </span>
                   <p>
-                  Diploma Expedido por Departamento de Informatica de la Institucion mayo 2022
+                    Diploma Expedido por Departamento de Informatica de la
+                    Institucion mayo 2022
                   </p>
                   <a href="/">Ver Mas</a>
                 </li>
