@@ -23,8 +23,15 @@ function About() {
             className={styles.tab}
             _selected={{ color: "white", bg: "#FECC01" }}
           >
-            Reconocimientos
+            Certificados
           </Tab>
+          <Tab
+            className={styles.tab}
+            _selected={{ color: "white", bg: "#FECC01" }}
+          >
+            Premios
+          </Tab>
+          
         </TabList>
         <TabPanels>
           <TabPanel className={styles.TabPanel}>
@@ -88,6 +95,17 @@ function About() {
                   </p>
                   <a href="/">Ver Mas</a>
                 </li>
+              </ul>
+            </div>
+          </TabPanel>
+          <TabPanel>
+          <div className={styles.about}>
+              <img
+                src="/img/premios.png"
+                alt=""
+                className={styles.imgLeft}
+              />
+              <ul>
                 <li>
                   <span>Diploma 1° puesto Certamen Desafios TECIP de Programacion Categoria 2</span>
                   <p>
