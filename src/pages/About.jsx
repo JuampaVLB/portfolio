@@ -36,27 +36,25 @@ function About() {
               />
               <ul>
                 <li>
-                  ¡Hola! Mi nombre es Mohit Sehrawat y me gusta crear cosas que
-                  viven en Internet. Soy un desarrollador apasionado, con
-                  fuertes habilidades administrativas y de comunicación, buena
-                  atención al detalle y la capacidad de escribir código
+                  ¡Hola! Mi nombre es Juan Pablo Villalba y me gusta crear cosas
+                  que viven en Internet. Soy un desarrollador apasionado, con
+                  fuertes habilidades administrativas y de responsabilidad,
+                  buena atención al detalle y la capacidad de escribir código
                   eficiente.
                 </li>
                 <li>
-                  Después de completar mi curso de Desarrollo Web Full-Stack,
-                  tuve la oportunidad de convertirme en Instructor para los
-                  estudiantes recién incorporados, allí ayudé a más de 200
-                  estudiantes a despejar sus dudas relacionadas con el
-                  desarrollo web y el plan de estudios de DSA y les guié durante
-                  todo el curso.
+                  Soy un programador full-stack con un enfoque en el lado
+                  back-end. Desde los 16 años que estoy aprendiendo programación
+                  y he trabajado en proyectos importantes para la institución
+                  que estudio. Mi objetivo profesional es seguir aprendiendo y
+                  creciendo como programador, y estoy interesado en trabajar en
+                  proyectos que me permitan aplicar mis habilidades técnicas y
+                  resolver problemas complejos.
                 </li>
                 <li>
-                  Avanzando rápido hasta hoy, estoy trabajando como
-                  Desarrollador Full Stack en el gigante spin-off de IBM
-                  'Kyndryl'. Después de mucha preparación, dedicación y
-                  constancia, soy capaz de lograr este hito. Al comenzar el
-                  siguiente capítulo de mi carrera, estoy muy ansioso por
-                  aprender, crecer y contribuir a mi nuevo papel
+                  Siempre estoy aprendiendo nuevas tecnologías y estoy buscando
+                  nuevas oportunidades de trabajo en empresas innovadoras y
+                  dinámicas.
                 </li>
               </ul>
             </div>
@@ -70,22 +68,39 @@ function About() {
               />
               <ul>
                 <li>
-                  Certificaciones sit amet consectetur adipisicing elit. Ducimus
-                  ipsum obcaecati dolores recusandae inventore saepe illum
-                  accusamus eaque rem? Totam soluta voluptatibus molestias sequi
-                  alias quis ipsa iusto dolores dolor!
+                  <span>Diploma de HTML5 y CSS3</span>
+                  <p>
+                  Diploma expedido por OpenBootCamp en diciembre 2022.
+                  </p>
+                  <a href="/">Ver Mas</a>
                 </li>
                 <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ducimus ipsum obcaecati dolores recusandae inventore saepe
-                  illum accusamus eaque rem? Totam soluta voluptatibus molestias
-                  sequi alias quis ipsa iusto dolores dolor!
+                  <span>Diploma de conceptos de la programacion</span>
+                  <p>
+                  Diploma expedido por OpenBootCamp en diciembre 2022.
+                  </p>
+                  <a href="/">Ver Mas</a>
                 </li>
                 <li>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ducimus ipsum obcaecati dolores recusandae inventore saepe
-                  illum accusamus eaque rem? Totam soluta voluptatibus molestias
-                  sequi alias quis ipsa iusto dolores dolor!
+                  <span>Certificate EF SET ENGLISH</span>
+                  <p>
+                  Diploma expedido por EF International Language Centers en enero 2023.
+                  </p>
+                  <a href="/">Ver Mas</a>
+                </li>
+                <li>
+                  <span>Diploma 1° puesto Certamen Desafios TECIP de Programacion Categoria 2</span>
+                  <p>
+                  Diploma Expedido por Departamento de Informatica de la Institucion diciembre 2022
+                  </p>
+                  <a href="/">Ver Mas</a>
+                </li>
+                <li>
+                  <span>Diploma 2° puesto Certamen Desafios TECIP de Programacion Categoria 2</span>
+                  <p>
+                  Diploma Expedido por Departamento de Informatica de la Institucion mayo 2022
+                  </p>
+                  <a href="/">Ver Mas</a>
                 </li>
               </ul>
             </div>
