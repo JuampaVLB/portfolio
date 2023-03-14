@@ -150,3 +150,11 @@
     }
 
 }
+
+@media (max-width: 368px) {
+    .containerTabs .TabList {
+        flex-direction: column;
+        justify-content: center;
+        width: 90%;
+    }
+}

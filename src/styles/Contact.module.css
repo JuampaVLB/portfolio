@@ -2,8 +2,174 @@
     width: 100%;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    font-size: 4rem;
-    background: red;
+    background: #EDF2F8;
+    margin-top: 8rem;
+    padding-top: 40px;
+}
+
+.container.active {
+    background: #0f1624;
+}
+
+.container .title {
+    padding: 80px 0;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.container .title>span {
+    color: var(--primary);
+}
+
+.container .containerFlex {
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+}
+
+.container .containerFlex>div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .containerFlex>div>.socials {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.container .containerFlex>div>.socials > a {
+    background: #00a0dc;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    min-width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 6px 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.container .containerFlex>div>.socials > a:nth-child(2) {
+    background: #373b41;
+}
+
+.container .containerFlex>div>.socials > a:nth-child(3) {
+    background: #e53e3e;
+}
+
+.container .containerFlex>div>form {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+}
+
+.container .containerFlex>div>form>input {
+    background: #fff;
+    color: #000;
+    padding: 8px;
+    box-shadow: var(--chakra-shadows-sm);
+    border-radius: 3px;
+    padding-left: 20px;
+}
+
+.container .containerFlex>div>form>input::placeholder {
+    color: #000;
+}
+
+.container .containerFlex>div>form>textarea::placeholder {
+    color: #000;
+}
+
+.container .containerFlex>div>form>button {
+    background: var(--primary);
+    padding: 8px 0;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: .3s ease;
+}
+
+.container .containerFlex>div>form>textarea {
+    background-color: #fff;
+    padding: 8px;
+    padding-left: 20px;
+    resize: none;
+}
+
+.container .containerFlex>div>form>button:hover {
+    transition: .3s ease;
+    background-color: rgb(23, 48, 99);
+
+}
+
+.container .containerFlex img {
+    width: 50%;
+}
+
+.container .footer {
+    text-align: center;
+    margin: 80px 0;
+    font-size: .9rem;
+}
+
+@media (max-width: 1035px) {
+    .container .containerFlex {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container .containerFlex > div {
+        width: 90%;
+    }
+
+    .container .containerFlex > img {
+        min-width: 400px;
+    }
+
+    .container .containerFlex>div>.socials {
+        margin: 4rem 0;
+    }
+
+    .container .containerFlex>div>form {
+        gap: 2rem;
+    }
+    
+}
+
+@media (max-width: 570px) {
+
+    .container .title {
+        text-align: center;
+    }
+
+    .container .containerFlex > div {
+        width: 100%;
+    }
+
+    .container .containerFlex>div>form {
+        width: 90%;
+    }
+
+    .container .containerFlex>div>.socials {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    .container .containerFlex>div>.socials {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
 }
