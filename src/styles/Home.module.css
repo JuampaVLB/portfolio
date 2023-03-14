@@ -8,6 +8,10 @@
     font-size: 4rem;
 }
 
+.container.active {
+    background: #0f1624;
+}
+
 .container .presentation p {
     font-size: 1.5rem;
     font-weight: 500;
