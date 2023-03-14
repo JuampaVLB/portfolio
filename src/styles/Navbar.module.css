@@ -21,6 +21,10 @@
     font-weight: 700;
 }
 
+.headerDark {
+    background: #0f1624;
+}
+
 .navbar {
     width: 100%;
     height: 100%;
@@ -31,10 +35,13 @@
     padding: 0 1rem;
 }
 
+.navbarDark {
+    color: #fff;
+}
+
 .navbar .logo {
     font-size: 1.6rem;
     text-decoration: none;
-    color: #000;
     font-weight: 700;
 
 }
@@ -50,9 +57,9 @@
     transition: .2s ease-in-out;
     border: none;
     outline: none;
-    color: #000;
     font-weight: 500;
     text-transform: uppercase;
+
 }
 
 .navbar button:active {
@@ -69,6 +76,10 @@
     /* font-family: 'Ubuntu', sans-serif; */
     display: flex;
     gap: 2rem;
+}
+
+.linksDark {
+    
 }
 
 .navbar ul {

@@ -95,6 +95,11 @@
     transition: .3s ease;
 }
 
+.tab.active {
+    color: #fff;
+    background-color: #173063;
+}
+
 .container .imgLeft {
     min-width: 700px;
     min-height: 700px;

@@ -1,11 +1,16 @@
 import * as React from "react";
 import styles from "../styles/About.module.css";
 
+import { useColorMode } from "@chakra-ui/color-mode";
+
 // Components
 
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
 function About() {
+
+  const { colorMode, toggleColorMode } = useColorMode();
+
   return (
     <div className={styles.container} id="about">
       <p className={styles.title}>
@@ -14,19 +19,25 @@ function About() {
       <Tabs className={styles.containerTabs}>
         <TabList className={styles.TabList}>
           <Tab
-            className={styles.tab}
+            className={`${styles.tab} ${
+              colorMode === "light" ? "" : styles.active
+            }`}
             _selected={{ color: "white", bg: "#FECC01" }}
           >
             Sobre Mi
           </Tab>
           <Tab
-            className={styles.tab}
+            className={`${styles.tab} ${
+              colorMode === "light" ? "" : styles.active
+            }`}
             _selected={{ color: "white", bg: "#FECC01" }}
           >
             Certificados
           </Tab>
           <Tab
-            className={styles.tab}
+            className={`${styles.tab} ${
+              colorMode === "light" ? "" : styles.active
+            }`}
             _selected={{ color: "white", bg: "#FECC01" }}
           >
             Premios

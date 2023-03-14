@@ -1,11 +1,16 @@
 import React from "react";
 import styles from "../styles/Skills.module.css";
 
+import { useColorMode } from "@chakra-ui/color-mode";
+
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
 import SkillCard from "../components/SkillCard";
 
 function skills() {
+
+  const { colorMode, toggleColorMode } = useColorMode();
+
   const skills = [
     {
       img: "html",
@@ -91,26 +96,32 @@ function skills() {
       <Tabs className={styles.containerTabs}>
         <TabList className={styles.TabList}>
           <Tab
-            className={styles.tab}
+            className={`${styles.tab} ${
+              colorMode === "light" ? "" : styles.active
+            }`}
             _selected={{ color: "white", bg: "#FECC01" }}
           >
             Todo
           </Tab>
           <Tab
-            className={styles.tab}
+            className={`${styles.tab} ${
+              colorMode === "light" ? "" : styles.active
+            }`}
             _selected={{ color: "white", bg: "#FECC01" }}
           >
             Frontend
           </Tab>
           <Tab
-            className={styles.tab}
+            className={`${styles.tab} ${
+              colorMode === "light" ? "" : styles.active
+            }`}
             _selected={{ color: "white", bg: "#FECC01" }}
           >
             Backend
           </Tab>
         </TabList>
 
-        <TabPanels>
+        <TabPanels className={styles.panels}>
           <TabPanel className={styles.TabPanel}>
             {skills.map((card, index) => (
               <SkillCard img={card.img} title={card.title} />
