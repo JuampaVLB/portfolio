@@ -6,6 +6,7 @@
     justify-content: center;
     align-items: center;
     font-size: 4rem;
+    background-color: #edf2f8;
 }
 
 .container.active {

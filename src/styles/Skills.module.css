@@ -1,9 +1,63 @@
 .container {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 4rem;
-    border-bottom: 2px solid gray;
+    flex-direction: column;
+}
+
+.container .title {
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+.container .title > span {
+    color: var(--primary);
+}
+
+.containerTabs {
+    display: grid;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.containerTabs .TabList {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    border: none;
+}
+
+.containerTabs .tab {
+    font-weight: 700;
+    border-radius: 5px;
+    color: #000;
+    background: #EDF2F8; 
+    border: none;
+    transition: .3s ease;
+}
+
+.container .imgLeft {
+    min-width: 700px;
+    min-height: 700px;
+    max-width: 700px;
+    max-height: 700px;
+}
+
+.containerTabs .tab:hover {
+    transition: .3s ease;
+    background: var(--primary);
+    color: #fff;
+}
+
+.containerTabs .TabPanel {
+    width: 100%;
+    height: 600px;
+    display: grid;
+    margin-top: 2rem;
+    gap: 2rem;
+    align-items: self-start;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
 }

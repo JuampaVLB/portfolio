@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+    min-height: 140px;
+    max-width: 120px;
+    max-height: 140px;
+    background: #edf2f8;
+    border-radius: 10px;
+}
+
+.container img {
+    width: 80px;
+    font-size: 1rem;
+    height: 80px;
+}
+
+.container p {
+    font-size: 1rem;
+}
