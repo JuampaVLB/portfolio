@@ -1,23 +1,29 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Home.module.css";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 import { useColorMode } from "@chakra-ui/color-mode";
 
 import "animate.css";
 
 function Home() {
-
   const { colorMode, toggleColorMode } = useColorMode();
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
 
   return (
     <div
+    data-aos="flip-left"
       className={`${styles.container} ${
         colorMode === "light" ? "" : styles.active
       }`}
       id="home"
     >
       <div
-        className={`${styles.presentation} animate__animated animate__zoomIn`}
+        className={`${styles.presentation}`}
       >
         <p>Hola, mi nombre es</p>
         <h1>Juan Pablo Villalba</h1>

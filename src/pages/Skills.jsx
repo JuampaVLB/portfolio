@@ -124,14 +124,14 @@ function skills() {
         <TabPanels className={styles.panels}>
           <TabPanel className={styles.TabPanel}>
             {skills.map((card, index) => (
-              <SkillCard img={card.img} title={card.title} />
+              <SkillCard img={card.img} title={card.title} key={card.title}/>
             ))}
           </TabPanel>
 
           <TabPanel className={styles.TabPanel}>
             {skills.map((card, index) =>
               card.category !== "backend" ? (
-                <SkillCard img={card.img} title={card.title} />
+                <SkillCard img={card.img} title={card.title} key={card.title}/>
               ) : (
                 ""
               )
@@ -141,7 +141,7 @@ function skills() {
           <TabPanel className={styles.TabPanel}>
             {skills.map((card, index) =>
               card.category !== "frontend" ? (
-                <SkillCard img={card.img} title={card.title} />
+                <SkillCard img={card.img} title={card.title} key={card.title}/>
               ) : (
                 ""
               )

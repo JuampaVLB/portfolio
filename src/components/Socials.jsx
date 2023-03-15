@@ -5,7 +5,7 @@ import 'animate.css';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import EmailIcon from '@mui/icons-material/Email';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 
 function Socials() {
@@ -20,7 +20,7 @@ function Socials() {
       </a>
 
       <a href="mailto:contacto.juanpablovillalba@gmail.com" target="_BLANK" className="animate__animated animate__zoomInLeft">
-        <EmailIcon />
+        <MailOutlineIcon />
       </a>
 
       <a href="#top" className={`${styles.arrow} animate__animated animate__slideInRight`}>
