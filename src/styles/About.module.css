@@ -151,8 +151,11 @@
 
 }
 
-@media (max-width: 368px) {
+@media (max-width: 381px) {
+
     .containerTabs .TabList {
+        margin-left: 50%;
+        transform: translateX(-50%);
         flex-direction: column;
         justify-content: center;
         width: 90%;

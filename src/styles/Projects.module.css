@@ -33,3 +33,10 @@
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr)); 
 
 }
+
+@media (max-width: 750px) {
+    .container .title {
+        text-align: center;
+        font-size: 2rem;
+    }
+}

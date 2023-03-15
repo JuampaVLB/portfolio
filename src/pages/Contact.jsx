@@ -23,7 +23,7 @@ function Contact() {
         Toma un <span>Cafe</span> y <span>Habla</span> Conmigo
       </p>
       <div className={styles.containerFlex}>
-        <img src="/img/contact.png" alt="" />
+        <img src="/img/contact.svg" alt="" />
         <div>
           <div className={styles.socials}>
             <a href="/">

@@ -27,7 +27,7 @@
     align-items: center;
     gap: 2rem;
     border: none;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 .containerTabs .tab {
@@ -73,6 +73,10 @@
 
 @media (max-width: 1058px) {
 
+    .container {
+        padding-top: 100px;
+    }
+
     .containerTabs {
         width: 100%;
     }
@@ -81,5 +85,12 @@
     min-height: 800px;
     place-items: center;
     height: auto;
+    }
+}
+
+@media (max-width: 750px) {
+    .container .title {
+        text-align: center;
+        font-size: 2rem;
     }
 }
