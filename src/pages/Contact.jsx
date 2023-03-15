@@ -51,7 +51,7 @@ function Contact() {
               name=""
               id=""
               cols="30"
-              rows="10"
+              rows="5"
               placeholder="Escribe tu Mensaje"
             ></textarea>
             <button>Send Message</button>
