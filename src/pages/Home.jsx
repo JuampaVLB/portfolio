@@ -8,19 +8,19 @@ import { useColorMode } from "@chakra-ui/color-mode";
 import "animate.css";
 
 function Home() {
-  const { colorMode, toggleColorMode } = useColorMode();
 
   useEffect(() => {
-    AOS.init();
+    AOS.init({duration: 2000});
   }, [])
 
+  const { colorMode, toggleColorMode } = useColorMode();
+
   return (
-    <div
-    data-aos="flip-left"
-      className={`${styles.container} ${
+    <div className={`${styles.container} ${
         colorMode === "light" ? "" : styles.active
       }`}
       id="home"
+      data-aos="fade-up"
     >
       <div
         className={`${styles.presentation}`}
