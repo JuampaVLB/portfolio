@@ -1,17 +1,11 @@
 import React, { useEffect } from "react";
 import styles from "../styles/Home.module.css";
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 
 import { useColorMode } from "@chakra-ui/color-mode";
 
 import "animate.css";
 
 function Home() {
-
-  useEffect(() => {
-    AOS.init({duration: 2000});
-  }, [])
 
   const { colorMode, toggleColorMode } = useColorMode();
 
@@ -20,7 +14,6 @@ function Home() {
         colorMode === "light" ? "" : styles.active
       }`}
       id="home"
-      data-aos="fade-up"
     >
       <div
         className={`${styles.presentation}`}

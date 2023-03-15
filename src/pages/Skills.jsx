@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Skills.module.css";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { useColorMode } from "@chakra-ui/color-mode";
 
@@ -8,6 +11,9 @@ import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 import SkillCard from "../components/SkillCard";
 
 function skills() {
+  useEffect(() => {
+    AOS.init({duration:1000});
+  }, []);
 
   const { colorMode, toggleColorMode } = useColorMode();
 
@@ -87,12 +93,13 @@ function skills() {
       title: "Postman",
       category: "backend",
     },
-    
   ];
 
   return (
     <div className={styles.container} id="skills">
-      <p className={styles.title}>Mis <span>Habilidades</span> tecnicas</p>
+      <p className={styles.title}>
+        Mis <span>Habilidades</span> tecnicas
+      </p>
       <Tabs className={styles.containerTabs}>
         <TabList className={styles.TabList}>
           <Tab
@@ -121,17 +128,17 @@ function skills() {
           </Tab>
         </TabList>
 
-        <TabPanels className={styles.panels}>
+        <TabPanels className={styles.panels} data-aos="fade-up">
           <TabPanel className={styles.TabPanel}>
             {skills.map((card, index) => (
-              <SkillCard img={card.img} title={card.title} key={card.title}/>
+              <SkillCard img={card.img} title={card.title} key={card.title} />
             ))}
           </TabPanel>
 
           <TabPanel className={styles.TabPanel}>
             {skills.map((card, index) =>
               card.category !== "backend" ? (
-                <SkillCard img={card.img} title={card.title} key={card.title}/>
+                <SkillCard img={card.img} title={card.title} key={card.title} />
               ) : (
                 ""
               )
@@ -141,7 +148,7 @@ function skills() {
           <TabPanel className={styles.TabPanel}>
             {skills.map((card, index) =>
               card.category !== "frontend" ? (
-                <SkillCard img={card.img} title={card.title} key={card.title}/>
+                <SkillCard img={card.img} title={card.title} key={card.title} />
               ) : (
                 ""
               )

@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Contact.module.css";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { useColorMode } from "@chakra-ui/color-mode";
 
@@ -12,6 +15,10 @@ import MailOutlineIcon from '@mui/icons-material/MailOutline';
 function Contact() {
   const { colorMode, toggleColorMode } = useColorMode();
 
+  useEffect(() => {
+    AOS.init({duration:1000});
+  }, []);
+
   return (
     <div
       className={`${styles.container} ${
@@ -23,8 +30,8 @@ function Contact() {
         Toma un <span>Cafe</span> y <span>Habla</span> Conmigo
       </p>
       <div className={styles.containerFlex}>
-        <img src="/img/contact.svg" alt="" />
-        <div>
+        <img src="/img/contact.svg" alt="" data-aos="zoom-in-right"/>
+        <div data-aos="zoom-in-left">
           <div className={styles.socials}>
             <a href="https://www.linkedin.com/in/juanpablovillalba/" target="_blank">
               <LinkedInIcon /> LinkedIn
@@ -37,15 +44,15 @@ function Contact() {
             </a>
           </div>
           <form action="">
-            <input type="text" placeholder="Full Name" />
+            <input type="text" placeholder="Nombre Completo" />
             <input type="email" placeholder="Email" />
-            <input type="tel" placeholder="Number" />
+            <input type="tel" placeholder="Numero de Telefono" />
             <textarea
               name=""
               id=""
               cols="30"
               rows="10"
-              placeholder="Your Message"
+              placeholder="Escribe tu Mensaje"
             ></textarea>
             <button>Send Message</button>
           </form>

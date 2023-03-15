@@ -1,5 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/Projects.module.css";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { useColorMode } from "@chakra-ui/color-mode";
 
@@ -7,6 +10,10 @@ import Card from "../components/Card";
 
 function Projects() {
   const { colorMode, toggleColorMode } = useColorMode();
+
+  useEffect(() => {
+    AOS.init({duration:1000});
+  }, []);
 
   return (
     <div
@@ -18,7 +25,7 @@ function Projects() {
       <p className={styles.title}>
         Mis <span>Proyectos</span>
       </p>
-      <div className={styles.containerCards}>
+      <div className={styles.containerCards} data-aos="fade-up">
         <Card
           img="taller.png"
           title="Pañol App"

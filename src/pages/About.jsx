@@ -1,5 +1,8 @@
-import * as React from "react";
+import React, { useEffect } from "react";
 import styles from "../styles/About.module.css";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { useColorMode } from "@chakra-ui/color-mode";
 
@@ -8,6 +11,10 @@ import { useColorMode } from "@chakra-ui/color-mode";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
 function About() {
+
+  useEffect(() => {
+    AOS.init({duration:1000});
+  }, []);
 
   const { colorMode, toggleColorMode } = useColorMode();
 
@@ -50,8 +57,9 @@ function About() {
                 src="/img/sobremitab.png"
                 alt=""
                 className={styles.imgLeft}
+                data-aos="zoom-in"
               />
-              <ul>
+              <ul data-aos="zoom-in">
                 <li>
                   ¡Hola! Mi nombre es Juan Pablo Villalba y me gusta crear cosas
                   que viven en Internet. Soy un desarrollador apasionado, con
