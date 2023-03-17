@@ -12,6 +12,22 @@
     background: #fff;
     box-shadow: var(--chakra-shadows-sm);
     border-radius: 10px;
+    position: relative;
+}
+
+.card.teamwork::before {
+    content: 'En Equipo';
+    position: absolute;
+    right: 0;
+    font-size: 1.1rem;
+    text-align: center;
+    top: 5%;
+    background-color: var(--primary);
+    width: 100px;
+    height: 30px;
+    font-weight: 500;
+    border-bottom-left-radius: 5px;
+    color: #000;
 }
 
 .card.active {

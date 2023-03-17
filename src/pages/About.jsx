@@ -11,9 +11,8 @@ import { useColorMode } from "@chakra-ui/color-mode";
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
 function About() {
-
   useEffect(() => {
-    AOS.init({duration:1000});
+    AOS.init({ duration: 1000 });
   }, []);
 
   const { colorMode, toggleColorMode } = useColorMode();
@@ -61,13 +60,15 @@ function About() {
               />
               <ul data-aos="zoom-in">
                 <li>
-                  ¡Hola! Mi nombre es Juan Pablo Villalba y me gusta crear cosas
-                  que viven en Internet. Soy un desarrollador apasionado, con
-                  fuertes habilidades administrativas y de responsabilidad,
-                  buena atención al detalle y la capacidad de escribir código
-                  eficiente.
+                  <span className="about-title">Sobre Mi</span>
+                  ¡Hola! Mi nombre es Juan Pablo Villalba tengo actualmente 18
+                  años, me gusta crear cosas que viven en Internet. Soy un
+                  desarrollador apasionado, con fuertes habilidades
+                  administrativas y de responsabilidad, buena atención al
+                  detalle y la capacidad de escribir código eficiente.
                 </li>
                 <li>
+                  <span className="about-title">Especialización</span>
                   Soy un programador full-stack con un enfoque en el lado
                   back-end. Desde los 16 años que estoy aprendiendo programación
                   y he trabajado en proyectos importantes para la institución
@@ -77,6 +78,7 @@ function About() {
                   resolver problemas complejos.
                 </li>
                 <li>
+                  <span className="about-title">Actualmente</span>
                   Siempre estoy aprendiendo nuevas tecnologías y estoy buscando
                   nuevas oportunidades de trabajo en empresas innovadoras y
                   dinámicas.
@@ -95,12 +97,22 @@ function About() {
                 <li>
                   <span>Diploma de HTML5 y CSS3</span>
                   <p>Diploma expedido por OpenBootCamp en diciembre 2022.</p>
-                  <a href="/">Ver Mas</a>
+                  <a
+                    target="_blank"
+                    href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/9138ceb8-5618-4f10-895e-cb71642aa891"
+                  >
+                    Ver Mas
+                  </a>
                 </li>
                 <li>
                   <span>Diploma de conceptos de la programacion</span>
                   <p>Diploma expedido por OpenBootCamp en diciembre 2022.</p>
-                  <a href="/">Ver Mas</a>
+                  <a
+                    href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/10a112be-c31f-466c-b07b-9f2f255d153b"
+                    target="_blank"
+                  >
+                    Ver Mas
+                  </a>
                 </li>
                 <li>
                   <span>Certificate EF SET ENGLISH</span>
@@ -108,7 +120,9 @@ function About() {
                     Diploma expedido por EF International Language Centers en
                     enero 2023.
                   </p>
-                  <a href="/">Ver Mas</a>
+                  <a href="https://www.efset.org/cert/voi3Pn" target="_blank">
+                    Ver Mas
+                  </a>
                 </li>
               </ul>
             </div>
@@ -126,7 +140,12 @@ function About() {
                     Diploma Expedido por Departamento de Informatica de la
                     Institucion diciembre 2022
                   </p>
-                  <a href="/">Ver Mas</a>
+                  <a
+                    href="https://www.linkedin.com/in/juanpablovillalba/overlay/1635511946196/single-media-viewer/?profileId=ACoAAD9XiI4BZDo5ZAeu0_5ZvsF0VSRjDPX2GYI"
+                    target="_blank"
+                  >
+                    Ver Mas
+                  </a>
                 </li>
                 <li>
                   <span>
@@ -137,7 +156,12 @@ function About() {
                     Diploma Expedido por Departamento de Informatica de la
                     Institucion mayo 2022
                   </p>
-                  <a href="/">Ver Mas</a>
+                  <a
+                    href="https://www.linkedin.com/in/juanpablovillalba/details/honors/"
+                    target="_blank"
+                  >
+                    Ver Mas
+                  </a>
                 </li>
               </ul>
             </div>

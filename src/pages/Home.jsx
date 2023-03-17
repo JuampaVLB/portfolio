@@ -21,6 +21,7 @@ function Home() {
         <p>Hola, mi nombre es</p>
         <h1>Juan Pablo Villalba</h1>
         <h2>Full Stack Developer</h2>
+        <p className={styles.year}>20/01/2005 - 18 años</p>
         <a href="/docs/Juan Pablo Villalba.pdf" target="_BLANK">
           Descargar CV
         </a>
