@@ -64,6 +64,11 @@ function skills() {
       category: "backend",
     },
     {
+      img: "ejs",
+      title: "EJS",
+      category: "backend",
+    },
+    {
       img: "mongodb",
       title: "MongoDB",
       category: "backend",
@@ -84,6 +89,11 @@ function skills() {
       category: "backend",
     },
     {
+      img: "npm",
+      title: "NPM",
+      category: "backend",
+    },
+    {
       img: "docker",
       title: "Docker",
       category: "backend",
@@ -91,6 +101,11 @@ function skills() {
     {
       img: "postman",
       title: "Postman",
+      category: "backend",
+    },
+    {
+      img: "console",
+      title: "Console",
       category: "backend",
     },
   ];
