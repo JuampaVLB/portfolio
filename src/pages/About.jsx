@@ -105,7 +105,17 @@ function About() {
                   </a>
                 </li>
                 <li>
-                  <span>Diploma de conceptos de la programacion</span>
+                  <span>Diploma de SQL</span>
+                  <p>Diploma expedido por OpenBootCamp en marzo 2023.</p>
+                  <a
+                    target="_blank"
+                    href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/81eeeed4-a44a-4738-bd4e-eed665bbeeea"
+                  >
+                    Ver Mas
+                  </a>
+                </li>
+                <li>
+                  <span>Diploma de Conceptos de la Programacion</span>
                   <p>Diploma expedido por OpenBootCamp en diciembre 2022.</p>
                   <a
                     href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/10a112be-c31f-466c-b07b-9f2f255d153b"
