@@ -92,3 +92,10 @@
     color: #fff;
     background-color: var(--primary);
 }
+
+@media (max-width:400px) {
+    .card {
+        min-width: 1px !important;
+        width: 95%;
+    }
+}

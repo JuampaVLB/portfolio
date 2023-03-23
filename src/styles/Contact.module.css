@@ -98,7 +98,7 @@
     color: #000;
 }
 
-.container .containerFlex>div>form>button {
+.container .containerFlex>div>form>.submit {
     background: var(--primary);
     padding: 8px 0;
     color: #fff;
@@ -108,13 +108,14 @@
 }
 
 .container .containerFlex>div>form>textarea {
+    color: initial;
     background-color: #fff;
     padding: 8px;
     padding-left: 20px;
     resize: none;
 }
 
-.container .containerFlex>div>form>button:hover {
+.container .containerFlex>div>form>.submit:hover {
     transition: .3s ease;
     background-color: rgb(23, 48, 99);
 

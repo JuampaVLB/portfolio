@@ -31,12 +31,18 @@
     justify-items: center;
     gap: 2rem;
     grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr)); 
-
 }
 
 @media (max-width: 750px) {
     .container .title {
         text-align: center;
         font-size: 2rem;
+    }
+}
+
+@media (max-width:400px) {
+
+    .container .containerCards {
+        justify-content: center;
     }
 }

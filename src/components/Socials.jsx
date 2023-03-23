@@ -19,7 +19,7 @@ function Socials() {
         <LinkedInIcon />
       </a>
 
-      <a href="mailto:contacto.juanpablovillalba@gmail.com" target="_BLANK" className="animate__animated animate__zoomInLeft">
+      <a href="mailto:contact.juampavlb@gmail.com" target="_BLANK" className="animate__animated animate__zoomInLeft">
         <MailOutlineIcon />
       </a>
 
