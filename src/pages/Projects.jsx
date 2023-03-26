@@ -35,8 +35,8 @@ function Projects() {
           documentos, control completo de stock, manejo de pedidos y
           agilidad a nivel control."
           stack="HTML5, CSS3, Javascript, NodeJS, MongoDB, Mongoose, EJS."
-          viewURL="/"
-          githubURL="https://github.com/JuampaVLB/TallerApp"
+          viewURL="https://www.linkedin.com/feed/update/urn:li:activity:7045564707063095296/"
+          githubURL="https://github.com/JuampaVLB/Taller"
           teamwork = {true}
         />
 
@@ -50,7 +50,7 @@ function Projects() {
           noticias semanales y un formulario de problematicas e
           ideas anónimas."
           stack="HTML5, CSS3, Javascript."
-          viewURL="/"
+          viewURL="https://eestn5centroestudiantil.000webhostapp.com/"
           githubURL="https://github.com/JuampaVLB/Centro-De-Estudiantes"
           teamwork = {true}
         />

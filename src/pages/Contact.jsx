@@ -131,7 +131,7 @@ function Contact() {
         </div>
       </div>
       <p className={styles.footer}>
-        Diseñado y construido por Juan Pablo, 2023 Todos los derechos reservados
+        Desarrollado por Juan Pablo, 2023 Todos los derechos reservados
       </p>
     </div>
   );

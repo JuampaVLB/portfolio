@@ -31,7 +31,7 @@ function skills() {
     {
       img: "javascript",
       title: "Javascript",
-      category: "frontend",
+      category: ['frontend', 'backend'],
     },
     {
       img: "react",
@@ -66,7 +66,7 @@ function skills() {
     {
       img: "ejs",
       title: "EJS",
-      category: "backend",
+      category: ['frontend', 'backend'],
     },
     {
       img: "mongodb",

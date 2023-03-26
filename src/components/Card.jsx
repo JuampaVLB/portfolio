@@ -25,8 +25,8 @@ function Card(props) {
       </p>
       
       <div className={styles.buttons}>
-        <a href={props.viewURL}>
-          <VisibilityIcon target="_BLANK" />
+        <a href={props.viewURL} target="_BLANK">
+          <VisibilityIcon />
         </a>
         <a href={props.githubURL} target="_BLANK">
           <GitHubIcon />
