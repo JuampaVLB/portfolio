@@ -3,6 +3,7 @@ import styles from "../styles/About.module.css";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Certificate from "../components/Certificate";
 
 import { useColorMode } from "@chakra-ui/color-mode";
 
@@ -103,30 +104,18 @@ function About() {
               <AccordionItem className={styles.AccordionItem}>
                 <h2>
                   <AccordionButton>
-                    <Box as="span" flex="1" textAlign="left" className={styles.AccordionBox}>
-                      Section 1 title
+                    <Box
+                      as="span"
+                      flex="1"
+                      textAlign="left"
+                      className={styles.AccordionBox}
+                    >
+                      ONE Oracle
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
                 </h2>
                 <AccordionPanel pb={4} className={styles.AccordionPanel}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
-                </AccordionPanel>
-              </AccordionItem>
-
-              <AccordionItem>
-                <h2>
-                  <AccordionButton>
-                    <Box as="span" flex="1" textAlign="left">
-                      OpenBootcamp
-                    </Box>
-                    <AccordionIcon />
-                  </AccordionButton>
-                </h2>
-                <AccordionPanel pb={4}>
                   <div className={styles.about}>
                     <img
                       src="/img/certificado.png"
@@ -134,53 +123,104 @@ function About() {
                       className={styles.imgLeft}
                     />
                     <ul>
-                      <li>
-                        <span>Diploma de HTML5 y CSS3</span>
-                        <p>
-                          Diploma expedido por OpenBootCamp en diciembre 2022.
-                        </p>
-                        <a
-                          target="_blank"
-                          href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/9138ceb8-5618-4f10-895e-cb71642aa891"
-                        >
-                          Ver Mas
-                        </a>
-                      </li>
-                      <li>
-                        <span>Diploma de SQL</span>
-                        <p>Diploma expedido por OpenBootCamp en marzo 2023.</p>
-                        <a
-                          target="_blank"
-                          href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/81eeeed4-a44a-4738-bd4e-eed665bbeeea"
-                        >
-                          Ver Mas
-                        </a>
-                      </li>
-                      <li>
-                        <span>Diploma de Conceptos de la Programacion</span>
-                        <p>
-                          Diploma expedido por OpenBootCamp en diciembre 2022.
-                        </p>
-                        <a
-                          href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/10a112be-c31f-466c-b07b-9f2f255d153b"
-                          target="_blank"
-                        >
-                          Ver Mas
-                        </a>
-                      </li>
-                      <li>
-                        <span>Certificate EF SET ENGLISH</span>
-                        <p>
-                          Diploma expedido por EF International Language Centers
-                          en enero 2023.
-                        </p>
-                        <a
-                          href="https://www.efset.org/cert/voi3Pn"
-                          target="_blank"
-                        >
-                          Ver Mas
-                        </a>
-                      </li>
+                      <Certificate
+                        title="Lógica de programación: Primeros pasos"
+                        desc="Diploma expedido por ONE Oracle en abril 2022"
+                        link="https://app.aluracursos.com/certificate/contact-juampavlb/logica-de-programacion-primeros-pasos"
+                      />
+
+                      <Certificate
+                        title="Lógica de programación: Practicando con juegos y animaciones"
+                        desc="Diploma expedido por ONE Oracle en abril 2022"
+                        link="http://surl.li/gfjex"
+                      />
+
+                      <Certificate
+                        title="Lógica de programación: Conceptos primordiales"
+                        desc="Diploma expedido por ONE Oracle en abril 2022"
+                        link="https://app.aluracursos.com/certificate/contact-juampavlb/logica-de-programacion-conceptos-primordiales"
+                      />
+
+                      <Certificate
+                        title="HTML5 y CSS3 parte 4: Avanzando en CSS"
+                        desc="Diploma expedido por ONE Oracle en abril 2022"
+                        link="https://app.aluracursos.com/certificate/contact-juampavlb/html5-css3-avanzando-css"
+                      />
+                    </ul>
+                  </div>
+                </AccordionPanel>
+              </AccordionItem>
+              <AccordionItem className={styles.AccordionItem}>
+                <h2>
+                  <AccordionButton>
+                    <Box
+                      as="span"
+                      flex="1"
+                      textAlign="left"
+                      className={styles.AccordionBox}
+                    >
+                      OpenBootcamp
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4} className={styles.AccordionPanel}>
+                  <div className={styles.about}>
+                    <img
+                      src="/img/certificado.png"
+                      alt=""
+                      className={styles.imgLeft}
+                    />
+                    <ul>
+                      <Certificate
+                        title="Diploma de HTML5 y CSS3"
+                        desc="Diploma expedido por OpenBootCamp en diciembre 2022"
+                        link="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/9138ceb8-5618-4f10-895e-cb71642aa891"
+                      />
+
+                      <Certificate
+                        title="Diploma de Conceptos de la Programacion"
+                        desc="Diploma expedido por OpenBootCamp en diciembre 2022."
+                        link="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/10a112be-c31f-466c-b07b-9f2f255d153b"
+                        target="_blank"
+                      />
+
+                      <Certificate
+                        title="Diploma de SQL"
+                        desc="Diploma expedido por OpenBootCamp en marzo 2023."
+                        link="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/81eeeed4-a44a-4738-bd4e-eed665bbeeea"
+                      />
+                    </ul>
+                  </div>
+                </AccordionPanel>
+              </AccordionItem>
+              <AccordionItem className={styles.AccordionItem}>
+                <h2>
+                  <AccordionButton>
+                    <Box
+                      as="span"
+                      flex="1"
+                      textAlign="left"
+                      className={styles.AccordionBox}
+                    >
+                      Otros
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4} className={styles.AccordionPanel}>
+                  <div className={styles.about}>
+                    <img
+                      src="/img/certificado.png"
+                      alt=""
+                      className={styles.imgLeft}
+                    />
+                    <ul>
+                      <Certificate
+                        title="Certificate EF SET ENGLISH"
+                        desc="Diploma expedido por EF International Language Centers en enero 2023."
+                        link="https://www.efset.org/cert/voi3Pn"
+                      />
                     </ul>
                   </div>
                 </AccordionPanel>

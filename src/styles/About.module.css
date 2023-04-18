@@ -1,6 +1,6 @@
 .container {
     width: 100%;
-    min-height: 100vh;
+    min-height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,7 +26,7 @@
 }
 
 
- .container .about {
+.container .about {
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -41,19 +41,19 @@
     gap: 2rem;
 }
 
-.container .about > ul > li{
+.container .about>ul>li {
     font-size: 1rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.container .about > ul > li > span {
+.container .about>ul>li>span {
     font-weight: 700;
     font-size: 1.15rem;
 }
 
-.container .about > ul > li > a {
+.container .about>ul>li>a {
     background: var(--primary);
     font-weight: 500;
     border-radius: 5px;
@@ -63,7 +63,7 @@
     transition: .3s ease;
 }
 
-.container .about > ul > li > a:hover {
+.container .about>ul>li>a:hover {
     transition: .3s ease;
     border-color: var(--primary);
     color: var(--primary);
@@ -90,7 +90,7 @@
     font-weight: 700;
     border-radius: 5px;
     color: #000;
-    background: #EDF2F8; 
+    background: #EDF2F8;
     border: none;
     transition: .3s ease;
 }
@@ -117,23 +117,31 @@
 
 .Accordion {
     width: 100%;
-    height: 100vh;
+    height: fit-content; 
 }
 
-.Accordion > .AccordionItem {
+.Accordion .AccordionBox {
+    font-family: 'Ubuntu, sans-serif';
+    font-size: 2rem;
+    color: inherit;
+    font-weight: normal;
+    text-align: center;
+}
+
+.Accordion>.AccordionItem {
     border: none;
     outline: none;
 }
 
-.Accordion > .AccordionBox {
-    background: red !important;
-    display: none;
+.AccordionPanel {
+    width: 100%;
+    height: 100%;
 }
 
 /* Responsive */
 
 @media (max-width: 1000px) {
-    
+
     .container .imgLeft {
         min-width: 400px;
     }
@@ -162,7 +170,7 @@
     }
 
     .container .imgLeft {
-        width:100px;
+        width: 100px;
         min-height: 0;
     }
 
