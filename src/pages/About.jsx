@@ -231,38 +231,19 @@ function About() {
             <div className={styles.about}>
               <img src="/img/premios.png" alt="" className={styles.imgLeft} />
               <ul>
-                <li>
-                  <span>
-                    Diploma 1° puesto Certamen Desafios TECIP de Programacion
-                    Categoria 2
-                  </span>
-                  <p>
-                    Diploma Expedido por Departamento de Informatica de la
-                    Institucion diciembre 2022
-                  </p>
-                  <a
-                    href="https://www.linkedin.com/in/juanpablovillalba/overlay/1635511946196/single-media-viewer/?profileId=ACoAAD9XiI4BZDo5ZAeu0_5ZvsF0VSRjDPX2GYI"
-                    target="_blank"
-                  >
-                    Ver Mas
-                  </a>
-                </li>
-                <li>
-                  <span>
-                    Diploma 2° puesto Certamen Desafios TECIP de Programacion
-                    Categoria 2
-                  </span>
-                  <p>
-                    Diploma Expedido por Departamento de Informatica de la
-                    Institucion mayo 2022
-                  </p>
-                  <a
-                    href="https://www.linkedin.com/in/juanpablovillalba/details/honors/"
-                    target="_blank"
-                  >
-                    Ver Mas
-                  </a>
-                </li>
+                <Certificate
+                  title="Diploma 1° puesto Certamen Desafios TECIP de Programacion Categoria 2"
+                  desc="Diploma Expedido por Departamento de Informatica de la
+                  Institucion diciembre 2022"
+                  link="https://www.linkedin.com/in/juanpablovillalba/overlay/1635511946196/single-media-viewer/?profileId=ACoAAD9XiI4BZDo5ZAeu0_5ZvsF0VSRjDPX2GYI"
+                />
+
+                <Certificate
+                  title="Diploma 2° puesto Certamen Desafios TECIP de Programacion Categoria 2"
+                  desc="Diploma Expedido por Departamento de Informatica de la
+                  Institucion mayo 2022"
+                  link="https://www.linkedin.com/in/juanpablovillalba/details/honors/"
+                />
               </ul>
             </div>
           </TabPanel>
