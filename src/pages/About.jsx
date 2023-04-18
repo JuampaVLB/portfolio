@@ -8,7 +8,19 @@ import { useColorMode } from "@chakra-ui/color-mode";
 
 // Components
 
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import {
+  Tabs,
+  TabList,
+  TabPanels,
+  Tab,
+  TabPanel,
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  Box,
+  AccordionIcon,
+  AccordionPanel,
+} from "@chakra-ui/react";
 
 function About() {
   useEffect(() => {
@@ -87,55 +99,93 @@ function About() {
             </div>
           </TabPanel>
           <TabPanel className={styles.TabPanel}>
-            <div className={styles.about}>
-              <img
-                src="/img/certificado.png"
-                alt=""
-                className={styles.imgLeft}
-              />
-              <ul>
-                <li>
-                  <span>Diploma de HTML5 y CSS3</span>
-                  <p>Diploma expedido por OpenBootCamp en diciembre 2022.</p>
-                  <a
-                    target="_blank"
-                    href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/9138ceb8-5618-4f10-895e-cb71642aa891"
-                  >
-                    Ver Mas
-                  </a>
-                </li>
-                <li>
-                  <span>Diploma de SQL</span>
-                  <p>Diploma expedido por OpenBootCamp en marzo 2023.</p>
-                  <a
-                    target="_blank"
-                    href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/81eeeed4-a44a-4738-bd4e-eed665bbeeea"
-                  >
-                    Ver Mas
-                  </a>
-                </li>
-                <li>
-                  <span>Diploma de Conceptos de la Programacion</span>
-                  <p>Diploma expedido por OpenBootCamp en diciembre 2022.</p>
-                  <a
-                    href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/10a112be-c31f-466c-b07b-9f2f255d153b"
-                    target="_blank"
-                  >
-                    Ver Mas
-                  </a>
-                </li>
-                <li>
-                  <span>Certificate EF SET ENGLISH</span>
-                  <p>
-                    Diploma expedido por EF International Language Centers en
-                    enero 2023.
-                  </p>
-                  <a href="https://www.efset.org/cert/voi3Pn" target="_blank">
-                    Ver Mas
-                  </a>
-                </li>
-              </ul>
-            </div>
+            <Accordion allowToggle className={styles.Accordion}>
+              <AccordionItem className={styles.AccordionItem}>
+                <h2>
+                  <AccordionButton>
+                    <Box as="span" flex="1" textAlign="left" className={styles.AccordionBox}>
+                      Section 1 title
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4} className={styles.AccordionPanel}>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </AccordionPanel>
+              </AccordionItem>
+
+              <AccordionItem>
+                <h2>
+                  <AccordionButton>
+                    <Box as="span" flex="1" textAlign="left">
+                      OpenBootcamp
+                    </Box>
+                    <AccordionIcon />
+                  </AccordionButton>
+                </h2>
+                <AccordionPanel pb={4}>
+                  <div className={styles.about}>
+                    <img
+                      src="/img/certificado.png"
+                      alt=""
+                      className={styles.imgLeft}
+                    />
+                    <ul>
+                      <li>
+                        <span>Diploma de HTML5 y CSS3</span>
+                        <p>
+                          Diploma expedido por OpenBootCamp en diciembre 2022.
+                        </p>
+                        <a
+                          target="_blank"
+                          href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/9138ceb8-5618-4f10-895e-cb71642aa891"
+                        >
+                          Ver Mas
+                        </a>
+                      </li>
+                      <li>
+                        <span>Diploma de SQL</span>
+                        <p>Diploma expedido por OpenBootCamp en marzo 2023.</p>
+                        <a
+                          target="_blank"
+                          href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/81eeeed4-a44a-4738-bd4e-eed665bbeeea"
+                        >
+                          Ver Mas
+                        </a>
+                      </li>
+                      <li>
+                        <span>Diploma de Conceptos de la Programacion</span>
+                        <p>
+                          Diploma expedido por OpenBootCamp en diciembre 2022.
+                        </p>
+                        <a
+                          href="https://community.open-bootcamp.com/user/jumpavlb/certificaciones/10a112be-c31f-466c-b07b-9f2f255d153b"
+                          target="_blank"
+                        >
+                          Ver Mas
+                        </a>
+                      </li>
+                      <li>
+                        <span>Certificate EF SET ENGLISH</span>
+                        <p>
+                          Diploma expedido por EF International Language Centers
+                          en enero 2023.
+                        </p>
+                        <a
+                          href="https://www.efset.org/cert/voi3Pn"
+                          target="_blank"
+                        >
+                          Ver Mas
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </AccordionPanel>
+              </AccordionItem>
+            </Accordion>
           </TabPanel>
           <TabPanel>
             <div className={styles.about}>

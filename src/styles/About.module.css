@@ -113,6 +113,23 @@
     color: #fff;
 }
 
+/* Accorditions */
+
+.Accordion {
+    width: 100%;
+    height: 100vh;
+}
+
+.Accordion > .AccordionItem {
+    border: none;
+    outline: none;
+}
+
+.Accordion > .AccordionBox {
+    background: red !important;
+    display: none;
+}
+
 /* Responsive */
 
 @media (max-width: 1000px) {
