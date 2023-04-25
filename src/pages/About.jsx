@@ -103,14 +103,14 @@ function About() {
             <Accordion allowToggle className={styles.Accordion}>
               <AccordionItem className={styles.AccordionItem}>
                 <h2>
-                  <AccordionButton>
+                  <AccordionButton className={styles.AccordionButton}>
                     <Box
                       as="span"
                       flex="1"
                       textAlign="left"
                       className={styles.AccordionBox}
                     >
-                      ONE Oracle
+                      Oracle NEXT
                     </Box>
                     <AccordionIcon />
                   </AccordionButton>
@@ -152,7 +152,7 @@ function About() {
               </AccordionItem>
               <AccordionItem className={styles.AccordionItem}>
                 <h2>
-                  <AccordionButton>
+                  <AccordionButton className={styles.AccordionButton}>
                     <Box
                       as="span"
                       flex="1"
@@ -196,7 +196,7 @@ function About() {
               </AccordionItem>
               <AccordionItem className={styles.AccordionItem}>
                 <h2>
-                  <AccordionButton>
+                  <AccordionButton className={styles.AccordionButton}>
                     <Box
                       as="span"
                       flex="1"

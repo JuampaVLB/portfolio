@@ -68,7 +68,7 @@ function Projects() {
         <Card
           img="socketWithDatabase.png"
           title="Notes App in Realtime"
-          message="NotesAPP es una aplicación web que utiliza websockets para permitir a los usuarios crear, editar y eliminar notas en tiempo real. La aplicación utiliza una base de datos para garantizar la persistencia de los datos. Es un proyecto que demuestra habilidades en el desarrollo web avanzado."
+          message="NotesAPP es una aplicación web que utiliza websockets para permitir a los usuarios crear, editar y eliminar notas en tiempo real. La aplicación utiliza una base de datos para garantizar la persistencia de los datos. Es un proyecto que demuestra habilidades 1en el desarrollo web avanzado."
           stack="HTML5, CSS3, Taildwind, ReactJS, Nodejs, Socket.io, Mongoose, MongoDB, Mongoose"
           viewURL="/"
           githubURL="https://github.com/JuampaVLB/NotesApp-RealTime-backend"

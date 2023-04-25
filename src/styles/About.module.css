@@ -117,15 +117,24 @@
 
 .Accordion {
     width: 100%;
-    height: fit-content; 
+    display: flex;
+    justify-content: space-around;
 }
 
 .Accordion .AccordionBox {
-    font-family: 'Ubuntu, sans-serif';
     font-size: 2rem;
     color: inherit;
     font-weight: normal;
     text-align: center;
+
+}
+
+.Accordion .AccordionButton {
+    border-radius: 10px;
+}   
+
+.Accordion .AccordionBox > p {
+    font-family: 'Ubuntu, sans-serif'; 
 }
 
 .Accordion>.AccordionItem {
@@ -134,7 +143,9 @@
 }
 
 .AccordionPanel {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
 }
 
@@ -172,6 +183,16 @@
     .container .imgLeft {
         width: 100px;
         min-height: 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .Accordion {
+        min-height: 50vh;
+        flex-direction: column;
+        justify-content: space-around; 
     }
 
 }
