@@ -51,6 +51,20 @@
     font-size: 14px;
 }
 
+/* .card p:nth-child(3) {
+    overflow-y: scroll;
+}
+
+.card p:nth-child(3)::-webkit-scrollbar-track {
+    background: red;
+    display: none;
+  }
+  
+.card p:nth-child(3)::-webkit-scrollbar-thumb {
+    background: red;
+    display: none;
+} */
+
 .card p:nth-child(2) {
     min-height: 30px;
     max-height: 30px;

@@ -37,7 +37,7 @@ function Projects() {
           stack="HTML5, CSS3, Javascript, NodeJS, MongoDB, Mongoose, EJS."
           viewURL="https://www.linkedin.com/feed/update/urn:li:activity:7045564707063095296/"
           githubURL="https://github.com/JuampaVLB/Taller"
-          teamwork = {true}
+          teamwork={true}
         />
 
         <Card
@@ -52,33 +52,23 @@ function Projects() {
           stack="HTML5, CSS3, Javascript."
           viewURL="https://eestn5centroestudiantil.000webhostapp.com/"
           githubURL="https://github.com/JuampaVLB/Centro-De-Estudiantes"
-          teamwork = {true}
+          teamwork={true}
         />
 
         <Card
           img="mdmElectro.png"
           title="MDM Electro"
-          message="Este proyecto fue un trabajo encargado para el
-          secundario técnico N°5, para su página oficial, el crear
-          una sección completamente orientada al centro
-          estudiantil. Contando con información del mismo,
-          noticias semanales y un formulario de problematicas e
-          ideas anónimas."
+          message="Cree junto a un colega una página web estilo landing page para MDM Electro, una empresa de electricidad y mantenimiento técnico. Incluimos secciones que mostraban el interior de la empresa, características de sus servicios y un formulario de contacto por correo electrónico. Además, agregamos enlaces a sus redes sociales."
           stack="HTML5, CSS3, Data-AOS, Javascript, PHP"
           viewURL="/"
           githubURL="https://github.com/JuampaVLB/Mdm-Electro"
-          teamwork = {true}
+          teamwork={true}
         />
 
         <Card
           img="socketWithDatabase.png"
           title="Notes App in Realtime"
-          message="Este proyecto fue un trabajo encargado para el
-          secundario técnico N°5, para su página oficial, el crear
-          una sección completamente orientada al centro
-          estudiantil. Contando con información del mismo,
-          noticias semanales y un formulario de problematicas e
-          ideas anónimas."
+          message="NotesAPP es una aplicación web que utiliza websockets para permitir a los usuarios crear, editar y eliminar notas en tiempo real. La aplicación utiliza una base de datos para garantizar la persistencia de los datos. Es un proyecto que demuestra habilidades en el desarrollo web avanzado."
           stack="HTML5, CSS3, Taildwind, ReactJS, Nodejs, Socket.io, Mongoose, MongoDB, Mongoose"
           viewURL="/"
           githubURL="https://github.com/JuampaVLB/NotesApp-RealTime-backend"
@@ -111,7 +101,7 @@ function Projects() {
           stack="HTML5, CSS3, NodeJS, Mongoose, Cors, JWT, MongoDB, ReactJS, Eslint, Prettier"
           viewURL="/"
           githubURL="https://github.com/JuampaVLB/LiveFlow-Backend"
-          teamwork = {true}
+          teamwork={true}
         />
 
         <Card
@@ -121,7 +111,7 @@ function Projects() {
           stack="HTML5, CSS3, Javascript, ReactJS, Nodejs, MongoDB, Mongoose, JWT, Cors, Axios, Morgan, Bycript"
           viewURL="/"
           githubURL="/"
-          teamwork = {true}
+          teamwork={true}
         />
 
         <Card
