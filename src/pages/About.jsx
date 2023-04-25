@@ -118,7 +118,7 @@ function About() {
                 <AccordionPanel pb={4} className={styles.AccordionPanel}>
                   <div className={styles.about}>
                     <img
-                      src="/img/certificado.png"
+                      src="/img/oracle.png"
                       alt=""
                       className={styles.imgLeft}
                     />
@@ -167,7 +167,7 @@ function About() {
                 <AccordionPanel pb={4} className={styles.AccordionPanel}>
                   <div className={styles.about}>
                     <img
-                      src="/img/certificado.png"
+                      src="/img/openbootcamp.png"
                       alt=""
                       className={styles.imgLeft}
                     />
