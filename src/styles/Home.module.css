@@ -1,0 +1,84 @@
+.container {
+    width: 100%;
+    padding-top: 4.063rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: #edf2f8;
+}
+
+.container.active {
+    background: #0f1624;
+}
+
+.container .presentation p {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.container .presentation h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.container .presentation h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+.container .presentation a {
+    font-size: 1.1rem;
+    background-color: var(--primary);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    transition: .3s ease;
+}
+
+.container .presentation a:hover {
+    transition: .3s ease;
+    border-color: var(--primary);
+    background-color: transparent;
+    color: var(--primary);
+}
+
+.container .image {
+    transition: .5s ease;
+}
+
+@media (max-width: 768px) {
+
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+
+    .container .presentation {
+        width: 90%;
+        text-align: left;
+    }
+
+    .container .presentation p {
+        font-size: 1.2rem;
+    }
+
+    .container .presentation h1 {
+        font-size: 2.2rem;
+    }
+
+    .container .presentation h2 {
+        font-size: 1.5rem;
+    }
+
+    .container .image:hover {
+        transition: .5s ease;
+        transform: scale(1.2);
+    }
+
+
+}
