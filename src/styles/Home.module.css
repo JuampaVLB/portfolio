@@ -48,6 +48,7 @@
 
 .container .image {
     transition: .5s ease;
+    margin-left: 2rem;
 }
 
 @media (max-width: 768px) {

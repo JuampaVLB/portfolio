@@ -7,10 +7,9 @@ import { useColorMode } from "@chakra-ui/color-mode";
 
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import VideocamIcon from "@mui/icons-material/Videocam";
 
 function Card(props) {
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode();
 
   return (
     <div

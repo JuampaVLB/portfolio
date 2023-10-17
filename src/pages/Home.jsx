@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import styles from "../styles/Home.module.css";
 
 import { useColorMode } from "@chakra-ui/color-mode";
@@ -22,8 +22,8 @@ function Home() {
         <h1>Juan Pablo Villalba</h1>
         <h2>Full Stack Developer</h2>
         <p className={styles.year}>18 años</p>
-        <a href="/docs/Juan Pablo Villalba.pdf" target="_BLANK">
-          Descargar CV
+        <a href="#contact">
+          Contactarme
         </a>
       </div>
       <div className={styles.image}>

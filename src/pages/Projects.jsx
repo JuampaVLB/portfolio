@@ -86,28 +86,18 @@ function Projects() {
         />
 
         <Card
-          img="bookApi.png"
-          title="API de Libros"
-          message="API Rest simple sobre libros donde podemos crear, editar, leer y borrar recursos, con base de datos, models, controller y routes."
-          stack="Vite, NodeJS, Mongoose, MongoDB"
+          img="portfolio.png"
+          title="Portfolio"
+          message="Mi actual portfolio de desarrollador Full-Stack que cuenta con toda la informacion sobre mi como lo pueden ser certificaciones, premios, proyectos, experiencias, mis redes sociales, habilidades y mucho mas!"
+          stack="HTML5, CSS3, Javascript, Vite, ReactJS, CSS Modules, AOS, Chakra UI"
           viewURL="/"
-          githubURL="https://github.com/JuampaVLB/BookAPI"
-        />
-
-        <Card
-          img="liveflow.png"
-          title="Liveflow"
-          message="App realizada para una hackatón comunitaria donde se implemento un sistema de usuarios con tokens JWT para luego poder utilizarlos para comunicarnos en un chat general junto a otras herramientas muy practicas como Eslint."
-          stack="HTML5, CSS3, NodeJS, Mongoose, Cors, JWT, MongoDB, ReactJS, Eslint, Prettier"
-          viewURL="/"
-          githubURL="https://github.com/JuampaVLB/LiveFlow-Backend"
-          teamwork={true}
+          githubURL="https://github.com/JuampaVLB/portfolio"
         />
 
         <Card
           img="biblioapp.png"
-          title="biblioApp"
-          message="Proyecto en desarrollo para un biblioteca que tendra un sistema de usuarios, peticiones, stock, formularios y registros para administrar la biblioteca de forma remota y sencilla que permitira la facilidad y productividad frente a todos los clientes recurrentes. "
+          title="Petzify"
+          message="Petzify"
           stack="HTML5, CSS3, Javascript, ReactJS, Nodejs, MongoDB, Mongoose, JWT, Cors, Axios, Morgan, Bycript"
           viewURL="/"
           githubURL="/"
@@ -115,12 +105,33 @@ function Projects() {
         />
 
         <Card
-          img="portfolio.png"
-          title="Portfolio"
-          message="Mi actual portfolio de desarrollador Full-Stack que cuenta con toda la informacion sobre mi como lo pueden ser certificaciones, premios, proyectos, experiencias, mis redes sociales, habilidades y mucho mas!"
-          stack="HTML5, CSS3, Javascript, Vite, ReactJS, CSS Modules, AOS, Chakra UI"
+          img="brawlnexus.png"
+          title="Brawl Nexus"
+          message="Brawl Nexus es una landing page que tiene como objetivo principal promocionar una organización dedicada a la organización de torneos oficiales de Brawlhalla en distintas regiones."
+          stack="HTML5, CSS3, Javascript, ReactJS, Eslint, ViteJS"
+          viewURL="https://brawl-nexus.vercel.app/"
+          githubURL="https://github.com/JuampaVLB/Brawl-Nexus"
+          teamwork={false}
+        />
+
+        <Card
+          img="biblioapp.png"
+          title="Olimpiadas de Informatica ( INET )"
+          message="Olimpiadas de Informatica ( INET )"
+          stack="HTML5, CSS3, Javascript, ReactJS, Nodejs, MongoDB, Mongoose, JWT, Cors, Axios, Morgan, Bycript"
           viewURL="/"
-          githubURL="https://github.com/JuampaVLB/portfolio"
+          githubURL="/"
+          teamwork={true}
+        />
+
+        <Card
+          img="simonsays.png"
+          title="Simon Says"
+          message="Este proyecto es una implementación simple del juego Simon Says desarrollado en PHP y MySQL. El juego desafía a los jugadores a repetir secuencias de colores y sonidos generados aleatoriamente."
+          stack="HTML5, CSS3, Javascript, PHP, MySQL, Docker"
+          viewURL="https://github.com/JuampaVLB/simon-says#readme"
+          githubURL="https://github.com/JuampaVLB/simon-says"
+          teamwork={false}
         />
       </div>
     </div>
