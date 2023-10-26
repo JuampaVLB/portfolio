@@ -56,6 +56,16 @@ function Projects() {
         />
 
         <Card
+          img="petzify.png"
+          title="Petzify"
+          message="Petzify es una red social especializada en animales domésticos que proporciona a los dueños de mascotas un entorno dedicado a compartir sus experiencias con sus compañeros peludos."
+          stack="React Native, Nodejs, Express, Typescript, MongoDB, Mongoose, Cors, Axios, WebSockets"
+          viewURL="https://petzify.vercel.app/"
+          githubURL="https://petzify.vercel.app/"
+          teamwork={true}
+        />
+
+        <Card
           img="mdmElectro.png"
           title="MDM Electro"
           message="Cree junto a un colega una página web estilo landing page para MDM Electro, una empresa de electricidad y mantenimiento técnico. Incluimos secciones que mostraban el interior de la empresa, características de sus servicios y un formulario de contacto por correo electrónico. Además, agregamos enlaces a sus redes sociales."
@@ -66,41 +76,12 @@ function Projects() {
         />
 
         <Card
-          img="socketWithDatabase.png"
-          title="Notes App in Realtime"
-          message="NotesAPP es una aplicación web que utiliza websockets para permitir a los usuarios crear, editar y eliminar notas en tiempo real. La aplicación utiliza una base de datos para garantizar la persistencia de los datos. Es un proyecto que demuestra habilidades 1en el desarrollo web avanzado."
-          stack="HTML5, CSS3, Taildwind, ReactJS, Nodejs, Socket.io, Mongoose, MongoDB, Mongoose"
-          viewURL="/"
-          githubURL="https://github.com/JuampaVLB/NotesApp-RealTime-backend"
-        />
-
-        {/* 2do column */}
-
-        <Card
-          img="liveChat.png"
-          title="Live Chat"
-          message="LiveChat es una practica e introduccion que utilice para aprender sobre websockets en javascript mas especificamente con la libreria Socket.io, cuenta con su lado cliente y el lado del servidor el cual ambos envian y reciben eventos para poder lograr la comunicacion entre varios dispositivos en tiempo real."
-          stack="HTML5, CSS3, NodeJS, Cors, Socket.IO, ReactJS, Tailwind"
-          viewURL="/"
-          githubURL="https://github.com/JuampaVLB/LiveChat-RealTime-backend/tree/master/server"
-        />
-
-        <Card
-          img="portfolio.png"
-          title="Portfolio"
-          message="Mi actual portfolio de desarrollador Full-Stack que cuenta con toda la informacion sobre mi como lo pueden ser certificaciones, premios, proyectos, experiencias, mis redes sociales, habilidades y mucho mas!"
-          stack="HTML5, CSS3, Javascript, Vite, ReactJS, CSS Modules, AOS, Chakra UI"
-          viewURL="/"
-          githubURL="https://github.com/JuampaVLB/portfolio"
-        />
-
-        <Card
-          img="biblioapp.png"
-          title="Petzify"
-          message="Petzify"
-          stack="HTML5, CSS3, Javascript, ReactJS, Nodejs, MongoDB, Mongoose, JWT, Cors, Axios, Morgan, Bycript"
-          viewURL="/"
-          githubURL="/"
+          img="olimpiadas.png"
+          title="Olimpiadas de Informatica"
+          message="Una solución digital para el protocolo médico conocido como 'Código Azul', que se caracteriza por activar dos alarmas que requieren la presencia de personal médico. Esta solución debe permitir el acceso mediante un sistema de autenticación basado en usuario y contraseña, ofreciendo una serie de funcionalidades clave."
+          stack="HTML5, CSS3, Javascript, ReactJS, Nodejs, Express, MongoDB, Mongoose, Cors, Axios"
+          viewURL="https://github.com/JuampaVLB/olimpiadas-informatica-front"
+          githubURL="https://github.com/JuampaVLB/olimpiadas-informatica-api"
           teamwork={true}
         />
 
@@ -115,23 +96,40 @@ function Projects() {
         />
 
         <Card
-          img="biblioapp.png"
-          title="Olimpiadas de Informatica ( INET )"
-          message="Olimpiadas de Informatica ( INET )"
-          stack="HTML5, CSS3, Javascript, ReactJS, Nodejs, MongoDB, Mongoose, JWT, Cors, Axios, Morgan, Bycript"
+          img="portfolio.png"
+          title="Portfolio"
+          message="Mi actual portfolio de desarrollador Full-Stack que cuenta con toda la informacion sobre mi como lo pueden ser certificaciones, premios, proyectos, experiencias, mis redes sociales, habilidades y mucho mas!"
+          stack="HTML5, CSS3, Javascript, Vite, ReactJS, CSS Modules, AOS, Chakra UI"
           viewURL="/"
-          githubURL="/"
-          teamwork={true}
+          githubURL="https://github.com/JuampaVLB/portfolio"
         />
 
         <Card
           img="simonsays.png"
           title="Simon Says"
-          message="Este proyecto es una implementación simple del juego Simon Says desarrollado en PHP y MySQL. El juego desafía a los jugadores a repetir secuencias de colores y sonidos generados aleatoriamente."
+          message="Este proyecto es una implementación simple del juego Simon Says desarrollado en PHP y MySQL. El juego desafía a los jugadores a repetir secuencias de colores y sonidos generados aleatoriamente para una entrevista tecnica."
           stack="HTML5, CSS3, Javascript, PHP, MySQL, Docker"
           viewURL="https://github.com/JuampaVLB/simon-says#readme"
           githubURL="https://github.com/JuampaVLB/simon-says"
           teamwork={false}
+        />
+
+        <Card
+          img="socketWithDatabase.png"
+          title="Notes App in Realtime"
+          message="NotesAPP es una aplicación web que utiliza websockets para permitir a los usuarios crear, editar y eliminar notas en tiempo real. La aplicación utiliza una base de datos para garantizar la persistencia de los datos. Es un proyecto que demuestra habilidades 1en el desarrollo web avanzado."
+          stack="HTML5, CSS3, Taildwind, ReactJS, Nodejs, Socket.io, Mongoose, MongoDB, Mongoose"
+          viewURL="/"
+          githubURL="https://github.com/JuampaVLB/NotesApp-RealTime-backend"
+        />
+
+        <Card
+          img="liveChat.png"
+          title="Live Chat"
+          message="LiveChat es una practica e introduccion que utilice para aprender sobre websockets en javascript mas especificamente con la libreria Socket.io, cuenta con su lado cliente y el lado del servidor el cual ambos envian y reciben eventos para poder lograr la comunicacion entre varios dispositivos en tiempo real."
+          stack="HTML5, CSS3, NodeJS, Cors, Socket.IO, ReactJS, Tailwind"
+          viewURL="/"
+          githubURL="https://github.com/JuampaVLB/LiveChat-RealTime-backend/tree/master/server"
         />
       </div>
     </div>

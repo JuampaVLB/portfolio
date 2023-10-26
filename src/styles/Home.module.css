@@ -47,16 +47,26 @@
 }
 
 .container .image {
+    max-width: 400px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid ;
     transition: .5s ease;
     margin-left: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
     .container {
         display: flex;
         justify-content: flex-end;
         flex-direction: column-reverse;
+    }
+
+    .container .image {
+        margin-left: 0;
+        width: 80%;
+        margin: 5rem 0;
     }
 
     .container .presentation {
@@ -75,11 +85,5 @@
     .container .presentation h2 {
         font-size: 1.5rem;
     }
-
-    .container .image:hover {
-        transition: .5s ease;
-        transform: scale(1.2);
-    }
-
 
 }

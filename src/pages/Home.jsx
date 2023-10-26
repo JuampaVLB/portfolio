@@ -28,7 +28,7 @@ function Home() {
       </div>
       <div className={styles.image}>
         <img
-          src="/img/profile.png"
+          src="/img/profile.jpg"
           alt="Juan Pablo Villalba"
           className="animate__animated animate__zoomIn"
         />
