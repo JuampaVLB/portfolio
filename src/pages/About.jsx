@@ -67,7 +67,7 @@ function About() {
             <div className={styles.about}>
               <img
                 src="/img/sobremitab.png"
-                alt=""
+                alt="sobre mi"
                 className={styles.imgLeft}
                 data-aos="zoom-in"
               />
@@ -119,7 +119,7 @@ function About() {
                   <div className={styles.about}>
                     <img
                       src="/img/oracle.png"
-                      alt=""
+                      alt="oracle"
                       className={styles.imgLeft}
                     />
                     <ul>
@@ -168,7 +168,7 @@ function About() {
                   <div className={styles.about}>
                     <img
                       src="/img/openbootcamp.png"
-                      alt=""
+                      alt="open bootcamp"
                       className={styles.imgLeft}
                     />
                     <ul>
@@ -212,7 +212,7 @@ function About() {
                   <div className={styles.about}>
                     <img
                       src="/img/certificado.png"
-                      alt=""
+                      alt="certificado"
                       className={styles.imgLeft}
                     />
                     <ul>
@@ -229,7 +229,7 @@ function About() {
           </TabPanel>
           <TabPanel>
             <div className={styles.about}>
-              <img src="/img/premios.png" alt="" className={styles.imgLeft} />
+              <img src="/img/premios.png" alt="premios" className={styles.imgLeft} />
               <ul>
                 <Certificate
                   title="Diploma 1° puesto Certamen Desafios TECIP de Programacion Categoria 2"
