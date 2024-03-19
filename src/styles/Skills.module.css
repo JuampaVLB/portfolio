@@ -13,7 +13,7 @@
     font-size: 2.2rem;
 }
 
-.container .title > span {
+.container .title>span {
     color: var(--primary);
 }
 
@@ -28,13 +28,14 @@
     gap: 2rem;
     border: none;
     margin-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .containerTabs .tab {
     font-weight: 700;
     border-radius: 5px;
     color: #000;
-    background: #EDF2F8; 
+    background: #EDF2F8;
     border: none;
     transition: .3s ease;
 }
@@ -64,11 +65,11 @@
 
 .containerTabs .TabPanel {
     width: 90%;
-    height: 400px;
     display: grid;
     margin-top: 2rem;
     gap: 2rem;
-    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); 
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    align-content: flex-start;
 }
 
 @media (max-width: 1058px) {
@@ -82,9 +83,9 @@
     }
 
     .containerTabs .TabPanel {
-    min-height: 800px;
-    place-items: center;
-    height: auto;
+        min-height: 800px;
+        place-items: center;
+        height: auto;
     }
 }
 

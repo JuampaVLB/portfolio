@@ -12,11 +12,32 @@
     {
         "img": "javascript",
         "title": "Javascript",
-        "category": ["frontend","backend"]
+        "category": [
+            "frontend",
+            "backend"
+        ]
+    },
+    {
+        "img": "jquery",
+        "title": "Jquery",
+        "category": "frontend"
+    },
+    {
+        "img": "typescript",
+        "title": "Typescript",
+        "category": [
+            "frontend",
+            "backend"
+        ]
     },
     {
         "img": "react",
         "title": "React",
+        "category": "frontend"
+    },
+    {
+        "img": "wordpress",
+        "title": "Wordpress",
         "category": "frontend"
     },
     {
@@ -27,6 +48,11 @@
     {
         "img": "tailwind",
         "title": "Tailwind",
+        "category": "frontend"
+    },
+    {
+        "img": "bootstrap",
+        "title": "Bootstrap",
         "category": "frontend"
     },
     {
@@ -47,11 +73,14 @@
     {
         "img": "ejs",
         "title": "EJS",
-        "category": ["frontend","backend"]
+        "category": [
+            "frontend",
+            "backend"
+        ]
     },
     {
-        "img": "mongodb",
-        "title": "MongoDB",
+        "img": "socket-io",
+        "title": "Socket.IO",
         "category": "backend"
     },
     {
@@ -62,31 +91,71 @@
     {
         "img": "mysql",
         "title": "MySQL",
-        "category": "backend"
+        "category": "databases"
+    },
+    {
+        "img": "mongodb",
+        "title": "MongoDB",
+        "category": "databases"
+    },
+    {
+        "img": "firebase",
+        "title": "Firebase",
+        "category": "databases"
+    },
+    {
+        "img": "github",
+        "title": "Github",
+        "category": "tools"
     },
     {
         "img": "git",
         "title": "GIT",
-        "category": "backend"
+        "category": "tools"
     },
     {
-        "img": "npm",
-        "title": "NPM",
-        "category": "backend"
+        "img": "gitlab",
+        "title": "Gitlab",
+        "category": "tools"
+    },
+    {
+        "img": "aws",
+        "title": "AWS",
+        "category": "tools"
     },
     {
         "img": "docker",
         "title": "Docker",
-        "category": "backend"
+        "category": "tools"
     },
     {
         "img": "postman",
         "title": "Postman",
-        "category": "backend"
+        "category": "tools"
+    },
+    {
+        "img": "figma",
+        "title": "Figma",
+        "category": "tools"
+    },
+    {
+        "img": "jira",
+        "title": "Jira",
+        "category": "tools"
+    },
+    {
+        "img": "slack",
+        "title": "Slack",
+        "category": "tools"
+    },
+    {
+        "img": "npm",
+        "title": "NPM",
+        "category": "tools"
     },
     {
         "img": "console",
         "title": "Console",
-        "category": "backend"
+        "category": "tools"
     }
 ]

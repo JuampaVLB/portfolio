@@ -8,15 +8,15 @@ import { useColorMode } from "@chakra-ui/color-mode";
 
 import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
-import technologies from '../assets/skills.json'
+import technologies from "../assets/skills.json";
 import SkillCard from "../components/SkillCard";
 
 function skills() {
   useEffect(() => {
-    AOS.init({duration:1000});
+    AOS.init({ duration: 1000 });
   }, []);
 
-  const { colorMode, toggleColorMode } = useColorMode();
+  const { colorMode } = useColorMode();
 
   return (
     <div className={styles.container} id="skills">
@@ -49,6 +49,22 @@ function skills() {
           >
             Backend
           </Tab>
+          <Tab
+            className={`${styles.tab} ${
+              colorMode === "light" ? "" : styles.active
+            }`}
+            _selected={{ color: "white", bg: "#FECC01" }}
+          >
+            Databases
+          </Tab>
+          <Tab
+            className={`${styles.tab} ${
+              colorMode === "light" ? "" : styles.active
+            }`}
+            _selected={{ color: "white", bg: "#FECC01" }}
+          >
+            Tools
+          </Tab>
         </TabList>
 
         <TabPanels className={styles.panels} data-aos="fade-up">
@@ -60,21 +76,32 @@ function skills() {
 
           <TabPanel className={styles.TabPanel}>
             {technologies.map((card, index) =>
-              card.category !== "backend" ? (
+              card.category == "frontend" ? (
                 <SkillCard img={card.img} title={card.title} key={card.title} />
-              ) : (
-                ""
-              )
+              ) : null
             )}
           </TabPanel>
 
           <TabPanel className={styles.TabPanel}>
-            {technologies.map((card, index) =>
-              card.category !== "frontend" ? (
+            {technologies.map((card) =>
+              card.category == "backend" ? (
                 <SkillCard img={card.img} title={card.title} key={card.title} />
-              ) : (
-                ""
-              )
+              ) : null
+            )}
+          </TabPanel>
+
+          <TabPanel className={styles.TabPanel}>
+            {technologies.map((card) =>
+              card.category == "databases" ? (
+                <SkillCard img={card.img} title={card.title} key={card.title} />
+              ) : null
+            )}
+          </TabPanel>
+          <TabPanel className={styles.TabPanel}>
+            {technologies.map((card) =>
+              card.category == "tools" ? (
+                <SkillCard img={card.img} title={card.title} key={card.title} />
+              ) : null
             )}
           </TabPanel>
         </TabPanels>
