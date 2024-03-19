@@ -25,9 +25,11 @@ function Navbar() {
         colorMode === "light" ? "" : styles.headerDark
       }`}
     >
-      <nav className={`${styles.navbar} ${
-        colorMode === "light" ? "" : styles.navbarDark
-      }`}>
+      <nav
+        className={`${styles.navbar} ${
+          colorMode === "light" ? "" : styles.navbarDark
+        }`}
+      >
         <a href="/" className={styles.logo}>
           juampa<span>vlb</span>
         </a>
