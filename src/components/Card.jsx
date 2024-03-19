@@ -13,7 +13,9 @@ function Card(props) {
 
   return (
     <div
-      className={`${styles.card} ${colorMode === "light" ? "" : styles.active} ${props.teamwork === true ? styles.teamwork : ""}`}
+      className={`${styles.card} ${
+        colorMode === "light" ? "" : styles.active
+      } ${props.teamwork === true ? styles.teamwork : ""}`}
     >
       <img src={`/img/projects/${props.img}`} alt={`${props.img}`} />
       <p className={styles.title}>{props.title}</p>
@@ -22,7 +24,7 @@ function Card(props) {
       <p>
         <span>Tech Stack: </span> {props.stack}
       </p>
-      
+
       <div className={styles.buttons}>
         <a href={props.viewURL} target="_BLANK">
           <VisibilityIcon />
