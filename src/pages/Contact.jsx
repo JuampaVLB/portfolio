@@ -19,7 +19,7 @@ const resetInputs = () => {
   inputs.forEach((element) => {
     element.value = "";
   });
-}
+};
 
 function Contact() {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -62,6 +62,9 @@ function Contact() {
       );
   };
 
+  const date = new Date();
+  const currentYear = date.getFullYear();
+
   return (
     <div
       className={`${styles.container} ${
@@ -85,10 +88,7 @@ function Contact() {
             <a href="https://github.com/JuampaVLB" target="_blank">
               <GitHubIcon /> GitHub
             </a>
-            <a
-              href="mailto:contact.juampavlb@gmail.com"
-              target="_blank"
-            >
+            <a href="mailto:contact.juampavlb@gmail.com" target="_blank">
               <MailOutlineIcon /> Gmail
             </a>
           </div>
@@ -131,7 +131,7 @@ function Contact() {
         </div>
       </div>
       <p className={styles.footer}>
-        Desarrollado por Juan Pablo, 2024 Todos los derechos reservados
+        Desarrollado por Juan Pablo, {currentYear} Todos los derechos reservados
       </p>
     </div>
   );
